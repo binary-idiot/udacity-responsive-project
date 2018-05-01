@@ -1,0 +1,120 @@
+@media screen and (max-width: 424px){
+  .closed{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 425px){
+	#menuButton{
+		display: none;
+	}
+
+	.header__logo{
+		width: 25%;
+	}
+
+	.header__title{
+		width: 75%;
+	}
+
+	.nav__item{
+		width: 25%;
+		padding: auto;
+	}
+
+	.hero article{
+		left: 0;
+		height: 100%;
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 600px){
+	.header__logo{
+		width: 20%;
+	}
+
+	.header__title{
+		width: 80%;
+		font-size: 4em;
+	}
+
+	.hero article{
+		width: 40%;
+	}
+
+	.scores{
+		width: 50%;
+	}
+
+	.weather{
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 750px){
+	.hero{ 
+		width: 60%;
+		order: 1;
+	}
+
+	.hero article{
+		width: 100%;
+		height: 35%;
+	}
+
+	.top-news{
+		width: 66%;
+		order: 3;
+	}
+
+	.scores{
+		width: 40%;
+		order: 2;
+		padding-left: 5px;
+	}
+
+	.weather{
+		width: 33%;
+		order: 4;
+	}
+
+	.recent-news{
+		width: 100%;
+		order: 5;
+	}
+}
+
+@media screen and (min-width: 950px){
+	.content{
+		width: 950px;
+		margin-right: auto;
+		margin-left: auto;
+
+	}
+
+}
+
+@media screen and (min-width: 1150px){
+	.header__inner{
+		width: 1150px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	nav{
+		width: 1150px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	footer{
+		width: 1150px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	body{
+		font-size: 16px;
+	}
+}
