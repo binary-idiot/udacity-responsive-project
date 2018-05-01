@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# gulpfile to run dev server
+gulpfile.js
